@@ -1,3 +1,9 @@
+phpldapadmin (1.2.5-2~ee100+1) buster-ee; urgency=medium
+
+  * Build for buster
+
+ -- Benjamin Renard <brenard@easter-eggs.com>  Wed, 22 Jan 2020 18:49:12 +0100
+
 phpldapadmin (1.2.5-1) unstable; urgency=medium
 
   * Build version 1.2.5 (from https://github.com/leenooks/phpLDAPadmin)
