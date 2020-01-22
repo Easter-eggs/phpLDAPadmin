@@ -1,0 +1,5 @@
+files
+phpldapadmin
+*.debhelper.log
+*.postrm.debhelper
+*.substvars

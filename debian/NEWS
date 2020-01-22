@@ -1,0 +1,9 @@
+phpldapadmin (1.2.2-5.2) unstable; urgency=medium
+
+  The setting option 'password_hash' has been renamed to 'password_hash_custom'.
+  Please fix your /etc/phpldapadmin/config.php and replace all references to
+  $servers->setValue('appearance','password_hash',
+  with
+  $servers->setValue('appearance','password_hash_custom',
+
+ -- Mika Pflüger <debian@mikapflueger.de>  Sat, 07 Feb 2015 23:09:07 +0100

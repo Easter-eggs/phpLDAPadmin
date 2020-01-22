@@ -1,0 +1,20 @@
+Source: phpldapadmin
+Section: admin
+Priority: extra
+Maintainer: Fabio Tranchitella <kobold@debian.org>
+Uploaders: Marcus Osdoba <marcus.osdoba@googlemail.com>
+Build-Depends: debhelper (>= 7.0.0), po-debconf, gettext
+Standards-Version: 3.9.3
+
+Package: phpldapadmin
+Architecture: all
+Depends: apache2 | httpd, php-ldap, libapache2-mod-php | php-cli, ucf (>= 0.28), ${misc:Depends}
+Description: web based interface for administering LDAP servers
+ phpLDAPadmin is a web-based LDAP client. It provides easy,
+ anywhere-accessible, multi-language administration for your LDAP
+ server. Its hierarchical tree-viewer and advanced search functionality
+ make it intuitive to browse and administer your LDAP directory. Since it
+ is a web application, this LDAP browser works on many platforms, making
+ your LDAP server easily manageable from any location.
+ Usually, you may access PLA by pointing your browser to
+ http://<webserver>/phpldapadmin .
